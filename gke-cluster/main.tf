@@ -3,7 +3,7 @@ terraform {
 
   backend "gcs" {
     bucket = "dev-workspacesb"         # ✅ Your existing bucket
-    prefix = "devopsapp-gke-cluster/terraform-state" # ✅ Folder path inside the bucket
+    prefix = "devopsappgitterr-gke-cluste/terraform-state" # ✅ Folder path inside the bucket
   }
 
   required_providers {
