@@ -2,8 +2,8 @@ terraform {
   required_version = ">= 1.3.0"
 
   backend "gcs" {
-    bucket = "murali-test-devops1"         # ✅ Your existing bucket
-    prefix = "gke-cluster/terraform-state" # ✅ Folder path inside the bucket
+    bucket = "dev-workspacesb"         # ✅ Your existing bucket
+    prefix = "devopsapp-gke-cluster/terraform-state" # ✅ Folder path inside the bucket
   }
 
   required_providers {
