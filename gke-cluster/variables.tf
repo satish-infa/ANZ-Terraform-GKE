@@ -14,7 +14,7 @@ variable "location" {
 
 variable "cluster_name" {
   type    = string
-  default = "devopsapp-gke-cluster"
+  default = "devopsappgitterr-gke-cluste"
 }
 
 variable "initial_node_count" {
